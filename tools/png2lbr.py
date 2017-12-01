@@ -106,8 +106,27 @@ footer = """
 </package>
 </packages>
 <symbols>
+<symbol name="%(name)s">
+<text x="0" y="0" size="1.778" layer="94" align="center">%(name)s</text>
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="%(name)s" prefix="%(name)s">
+<gates>
+<gate name="G$1" symbol="%(name)s" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="%(name)s">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
@@ -209,13 +228,16 @@ def render_path_to_layer(path, fp_type, layer, scale_factor):
 
 def conv_image_to_module(name, scale_factor):
 
-    module = header % {"name": name}
+    module = header % {"name": name.upper()}
 
     front_image = Image.open("%s_front.png" % name).transpose(Image.FLIP_TOP_BOTTOM) 
     print("Reading image from \"%s_front.png\"" % name)
 
     front_image_red, front_image_green, front_image_blue, front_image_alpha = front_image.split()
 
+    # Soldermask needs to be inverted
+    front_image_red = ImageOps.invert(front_image_red)
+    front_image_red = Image.composite(front_image_red, front_image_alpha, front_image_alpha)
     front_image_red = front_image_red.point(lambda i: 0 if i < 127 else 1)
     red_array = np.array(front_image_red)
     bmp_red = potrace.Bitmap(red_array)
@@ -244,8 +266,8 @@ def conv_image_to_module(name, scale_factor):
     # print("Generating Outline layer from front alpha channel")
     # module += render_path_to_layer(path_alpha, "line", "20", scale_factor)
 
-    print("Generating Top layer from front red channel")
-    module += render_path_to_layer(path_red, "poly", "1", scale_factor)
+    print("Generating tKeepout layer from front red channel")
+    module += render_path_to_layer(path_red, "poly", "39", scale_factor)
     print("Generating tStop layer from front green channel")
     module += render_path_to_layer(path_green, "poly", "29", scale_factor)
     print("Generating tPlace layer from front blue channel")
@@ -275,8 +297,8 @@ def conv_image_to_module(name, scale_factor):
         bmp_blue = potrace.Bitmap(blue_array)
         path_blue = bmp_blue.trace(alphamax = 0.0, opttolerance = 50)
 
-        print("Generating Bottom layer from back red channel")
-        module += render_path_to_layer(path_red, "poly", "16", scale_factor)
+        print("Generating bKeepout layer from back red channel")
+        module += render_path_to_layer(path_red, "poly", "40", scale_factor)
         print("Generating bStop layer from back green channel")
         module += render_path_to_layer(path_green, "poly", "30", scale_factor)
         print("Generating bPlace layer from back blue channel")
@@ -284,7 +306,7 @@ def conv_image_to_module(name, scale_factor):
     except IOError:
         pass
 
-    module += footer % {"name": name}
+    module += footer % {"name": name.upper()}
     return module, (w * 25.4 / scale_factor, h * 25.4 / scale_factor)
 
 
