@@ -160,7 +160,7 @@ def curve_to_points(areas, curve, fp_type, process_children):
         for grandchild in child.children:
             curve_to_points(areas, grandchild, fp_type, True)
         child_points = curve_to_points(areas, child, fp_type, False)
-        if fp_type == "fp_poly":
+        if fp_type == "poly":
             closest = 10000
             closest_point = 0
             closest_child_point = 0
@@ -173,16 +173,15 @@ def curve_to_points(areas, curve, fp_type, process_children):
                         closest_child_point = cp
             points.insert(closest_point + 1, points[closest_point])
             points.insert(closest_point + 1, child_points[closest_child_point])
-            for point in child_points[closest_child_point::]:
+            for point in child_points[closest_child_point::-1]:
                 points.insert(closest_point + 1, point)
-            for point in child_points[:closest_child_point:]:
+            for point in child_points[:closest_child_point:-1]:
                 points.insert(closest_point + 1, point)
             points.insert(closest_point + 1, child_points[closest_child_point])
         else:
             areas.append(child_points)
 
     areas.append(points)
-
 
 def render_path_to_layer(path, fp_type, layer, scale_factor):
     module = ""
@@ -194,7 +193,6 @@ def render_path_to_layer(path, fp_type, layer, scale_factor):
     for poly in areas:
         if fp_type == "poly":
             module += "\n  <polygon width=\"0.001\" layer=\"%s\">" % layer
-            i = 0
             for point in poly:
                 module += "\n    <vertex x=\"%f\" y=\"%f\" />" % (point[0] * 25.4 / scale_factor, point[1] * 25.4 / scale_factor)
             module += "\n    <vertex x=\"%f\" y=\"%f\" />" % (poly[0][0] * 25.4 / scale_factor, point[1] * 25.4 / scale_factor)
