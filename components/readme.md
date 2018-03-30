@@ -19,7 +19,6 @@ Please be aware that it is your own responsibility to double-check the dimension
 
 * Maintainer: [Pawnerd](https://github.com/pawnerd) / [Knops.io](http://www.knops.io/)
 * Hardware Supported:
-  * MX style
-  * Choc style
+  * MX style (kailh_socket_mx.stp)
 
 ---
