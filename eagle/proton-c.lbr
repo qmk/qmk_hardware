@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Footprints used for the controller and other supporting hardware</description>
+<packages>
+<package name="PROTON-C-BOTTOM">
+<description>Footprint for Proton-C when mounted top-up to the bottom of the board.
+
+This has holes cut out to accomodate the USB connector and to allow you to press the RESET button using a small tool. This will allow you to place the top side of the Proton-C towards the board and still have a low profile.</description>
+<pad name="PB0" x="-7.62" y="-12.7" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-10.16" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-7.62" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-5.08" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="18.514" x2="-8.89" y2="-12.7" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-12.7" x2="-7.62" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-13.97" x2="-6.35" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-15.24" x2="-7.62" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="18.514" x2="-7.62" y2="19.784" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="19.784" x2="-5.125" y2="19.784" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-2.54" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="0" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="2.54" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="5.08" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="7.62" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="10.16" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="12.7" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="15.24" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-12.7" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-10.16" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-7.62" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-5.08" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="19.784" x2="7.62" y2="19.784" width="0.5" layer="21"/>
+<wire x1="7.62" y1="19.784" x2="8.89" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-16.51" x2="6.35" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-15.24" x2="7.62" y2="-13.97" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-13.97" x2="8.89" y2="-12.7" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-12.7" x2="8.89" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-2.54" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="0" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="2.54" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="5.08" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="7.62" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="10.16" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="12.7" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="15.24" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-11.25" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-17.78" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-20.32" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-22.86" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-25.4" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-27.94" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-30.48" drill="0.9" diameter="1.7"/>
+<pad name="RESET" x="7.62" y="-30.48" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO" x="7.62" y="-27.94" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK" x="7.62" y="-25.4" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-22.86" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-20.32" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-17.78" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="10.16" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="10.16" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="10.16" drill="0.9" diameter="1.7"/>
+<hole x="-6.97" y="18.04" drill="2.2"/>
+<hole x="6.97" y="18.04" drill="2.2"/>
+<wire x1="-7.62" y1="-16.51" x2="-8.89" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="-30.48" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-30.48" x2="-7.62" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-31.75" x2="7.62" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-31.75" x2="8.89" y2="-30.48" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-30.48" x2="8.89" y2="-17.78" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="7.62" y2="-16.51" width="0.5" layer="21" curve="90"/>
+<hole x="0" y="0" drill="3"/>
+<wire x1="-5.08" y1="21.02" x2="-5.08" y2="11.93" width="0" layer="20"/>
+<wire x1="-5.08" y1="11.93" x2="-4.58" y2="11.43" width="0" layer="20" curve="90"/>
+<wire x1="-4.58" y1="11.43" x2="4.58" y2="11.43" width="0" layer="20"/>
+<wire x1="4.58" y1="11.43" x2="5.08" y2="11.93" width="0" layer="20" curve="90"/>
+<wire x1="5.08" y1="11.93" x2="5.08" y2="21.02" width="0" layer="20"/>
+<wire x1="5.08" y1="21.02" x2="-5.08" y2="21.02" width="0" layer="20"/>
+<text x="0" y="-2.54" size="1.27" layer="21" font="vector" ratio="13" align="center">FLASH</text>
+<wire x1="8.89" y1="18.514" x2="8.89" y2="-12.7" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-12.7" x2="7.62" y2="-13.97" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-13.97" x2="6.35" y2="-15.24" width="0.5" layer="22" curve="90"/>
+<wire x1="6.35" y1="-15.24" x2="7.62" y2="-16.51" width="0.5" layer="22" curve="90"/>
+<wire x1="8.89" y1="18.514" x2="7.62" y2="19.784" width="0.5" layer="22" curve="90"/>
+<wire x1="7.62" y1="19.784" x2="5.125" y2="19.784" width="0.5" layer="22"/>
+<wire x1="-5.125" y1="19.784" x2="-7.62" y2="19.784" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="19.784" x2="-8.89" y2="18.514" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-16.51" x2="-6.35" y2="-15.24" width="0.5" layer="22" curve="90"/>
+<wire x1="-6.35" y1="-15.24" x2="-7.62" y2="-13.97" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-13.97" x2="-8.89" y2="-12.7" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-12.7" x2="-8.89" y2="18.514" width="0.5" layer="22"/>
+<wire x1="7.62" y1="-16.51" x2="8.89" y2="-17.78" width="0.5" layer="22" curve="-90"/>
+<wire x1="8.89" y1="-17.78" x2="8.89" y2="-30.48" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-30.48" x2="7.62" y2="-31.75" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-31.75" x2="-7.62" y2="-31.75" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="-31.75" x2="-8.89" y2="-30.48" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-30.48" x2="-8.89" y2="-17.78" width="0.5" layer="22"/>
+<wire x1="-8.89" y1="-17.78" x2="-7.62" y2="-16.51" width="0.5" layer="22" curve="-90"/>
+<text x="0" y="-11.25" size="1.5" layer="26" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="28" font="vector" ratio="13" rot="MR0" align="center">&gt;VALUE</text>
+</package>
+<package name="PROTON-C-SPEAKER">
+<description>Standard Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-13.945" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.52" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<hole x="-6.97" y="16.77" drill="2.2"/>
+<hole x="6.97" y="16.77" drill="2.2"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="4.8975" y1="-30.7975" x2="-4.8975" y2="-30.7975" width="0" layer="20"/>
+<wire x1="-4.8975" y1="-30.7975" x2="-5.3975" y2="-30.2975" width="0" layer="20" curve="-90"/>
+<wire x1="-5.3975" y1="-30.2975" x2="-5.3975" y2="-19.2325" width="0" layer="20"/>
+<wire x1="-5.3975" y1="-19.2325" x2="-4.8975" y2="-18.7325" width="0" layer="20" curve="-90"/>
+<wire x1="-4.8975" y1="-18.7325" x2="4.8975" y2="-18.7325" width="0" layer="20"/>
+<wire x1="4.8975" y1="-18.7325" x2="5.3975" y2="-19.2325" width="0" layer="20" curve="-90"/>
+<wire x1="5.3975" y1="-19.2325" x2="5.3975" y2="-30.2975" width="0" layer="20"/>
+<wire x1="5.3975" y1="-30.2975" x2="4.8975" y2="-30.7975" width="0" layer="20" curve="-90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="17.244" x2="8.89" y2="-13.97" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-13.97" x2="7.62" y2="-15.24" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="6.35" y2="-16.51" width="0.5" layer="22" curve="90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-17.78" width="0.5" layer="22" curve="90"/>
+<wire x1="8.89" y1="17.244" x2="7.62" y2="18.514" width="0.5" layer="22" curve="90"/>
+<wire x1="7.62" y1="18.514" x2="5.125" y2="18.514" width="0.5" layer="22"/>
+<wire x1="-5.125" y1="18.514" x2="-7.62" y2="18.514" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="18.514" x2="-8.89" y2="17.244" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-17.78" x2="-6.35" y2="-16.51" width="0.5" layer="22" curve="90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-15.24" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-8.89" y2="-13.97" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-13.97" x2="-8.89" y2="17.244" width="0.5" layer="22"/>
+<wire x1="7.62" y1="-17.78" x2="8.89" y2="-19.05" width="0.5" layer="22" curve="-90"/>
+<wire x1="8.89" y1="-19.05" x2="8.89" y2="-31.75" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-31.75" x2="7.62" y2="-33.02" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-33.02" x2="-7.62" y2="-33.02" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="-33.02" x2="-8.89" y2="-31.75" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-31.75" x2="-8.89" y2="-19.05" width="0.5" layer="22"/>
+<wire x1="-8.89" y1="-19.05" x2="-7.62" y2="-17.78" width="0.5" layer="22" curve="-90"/>
+<wire x1="-5.08" y1="10.66" x2="-5.08" y2="19.25" width="0.5" layer="22"/>
+<wire x1="-5.08" y1="19.25" x2="-4.58" y2="19.75" width="0.5" layer="22" curve="-90"/>
+<wire x1="-4.58" y1="19.75" x2="4.58" y2="19.75" width="0.5" layer="22"/>
+<wire x1="4.58" y1="19.75" x2="5.08" y2="19.25" width="0.5" layer="22" curve="-90"/>
+<wire x1="5.08" y1="19.25" x2="5.08" y2="10.66" width="0.5" layer="22"/>
+<wire x1="5.08" y1="10.66" x2="4.58" y2="10.16" width="0.5" layer="22" curve="-90"/>
+<wire x1="4.58" y1="10.16" x2="-4.58" y2="10.16" width="0.5" layer="22"/>
+<wire x1="-4.58" y1="10.16" x2="-5.08" y2="10.66" width="0.5" layer="22" curve="-90"/>
+</package>
+<package name="PROTON-C-SMD">
+<description>Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. There are SMD pads corresponding to internal SMD pins.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-11.25" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET@1" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO@1" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK@1" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<smd name="PC15" x="-4.92" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="PC14" x="-3.37" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="PA3-3V" x="-1.22" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="BOOT0" x="2.43" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="LED" x="-3.27" y="-5.936" dx="1" dy="1" layer="1"/>
+<smd name="RESET@2" x="-3.429" y="-13.803" dx="1" dy="1" layer="1"/>
+<smd name="SWDIO@2" x="4.191" y="-13.803" dx="1" dy="1" layer="1"/>
+<smd name="SWCLK@2" x="5.619" y="-13.803" dx="1" dy="1" layer="1"/>
+</package>
+<package name="PROTON-C-THT">
+<description>Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-11.25" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET@1" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO@1" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK@1" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<pad name="RESET@2" x="-3.429" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="SWDIO@2" x="4.191" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="SWCLK@2" x="5.619" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="PC14" x="-3.37" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="PC15" x="-4.92" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="PA3-3V" x="-1.22" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="BOOT0" x="2.43" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="LED" x="-3.27" y="-5.936" drill="0.5" shape="octagon"/>
+</package>
+<package name="PROTON-C-THT-SPEAKER">
+<description>Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-11.25" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET@1" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO@1" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK@1" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<pad name="RESET@2" x="-3.429" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="SWDIO@2" x="4.191" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="SWCLK@2" x="5.619" y="-13.803" drill="0.5" shape="octagon"/>
+<pad name="PC14" x="-3.37" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="PC15" x="-4.92" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="PA3-3V" x="-1.22" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="BOOT0" x="2.43" y="2.824" drill="0.5" shape="octagon"/>
+<pad name="LED" x="-3.27" y="-5.936" drill="0.5" shape="octagon"/>
+<wire x1="4.8975" y1="-30.7975" x2="-4.8975" y2="-30.7975" width="0" layer="20"/>
+<wire x1="-4.8975" y1="-30.7975" x2="-5.3975" y2="-30.2975" width="0" layer="20" curve="-90"/>
+<wire x1="-5.3975" y1="-30.2975" x2="-5.3975" y2="-19.2325" width="0" layer="20"/>
+<wire x1="-5.3975" y1="-19.2325" x2="-4.8975" y2="-18.7325" width="0" layer="20" curve="-90"/>
+<wire x1="-4.8975" y1="-18.7325" x2="4.8975" y2="-18.7325" width="0" layer="20"/>
+<wire x1="4.8975" y1="-18.7325" x2="5.3975" y2="-19.2325" width="0" layer="20" curve="-90"/>
+<wire x1="5.3975" y1="-19.2325" x2="5.3975" y2="-30.2975" width="0" layer="20"/>
+<wire x1="5.3975" y1="-30.2975" x2="4.8975" y2="-30.7975" width="0" layer="20" curve="-90"/>
+</package>
+<package name="PROTON-C-SMD-SPEAKER">
+<description>Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. There are SMD pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-11.25" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.5" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET@1" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO@1" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK@1" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<smd name="PC15" x="-4.92" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="PC14" x="-3.37" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="PA3-3V" x="-1.22" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="BOOT0" x="2.43" y="2.824" dx="1" dy="1" layer="1"/>
+<smd name="LED" x="-3.27" y="-5.936" dx="1" dy="1" layer="1"/>
+<smd name="RESET@2" x="-3.429" y="-13.803" dx="1" dy="1" layer="1"/>
+<smd name="SWDIO@2" x="4.191" y="-13.803" dx="1" dy="1" layer="1"/>
+<smd name="SWCLK@2" x="5.619" y="-13.803" dx="1" dy="1" layer="1"/>
+<wire x1="4.8975" y1="-30.7975" x2="-4.8975" y2="-30.7975" width="0" layer="20"/>
+<wire x1="-4.8975" y1="-30.7975" x2="-5.3975" y2="-30.2975" width="0" layer="20" curve="-90"/>
+<wire x1="-5.3975" y1="-30.2975" x2="-5.3975" y2="-19.2325" width="0" layer="20"/>
+<wire x1="-5.3975" y1="-19.2325" x2="-4.8975" y2="-18.7325" width="0" layer="20" curve="-90"/>
+<wire x1="-4.8975" y1="-18.7325" x2="4.8975" y2="-18.7325" width="0" layer="20"/>
+<wire x1="4.8975" y1="-18.7325" x2="5.3975" y2="-19.2325" width="0" layer="20" curve="-90"/>
+<wire x1="5.3975" y1="-19.2325" x2="5.3975" y2="-30.2975" width="0" layer="20"/>
+<wire x1="5.3975" y1="-30.2975" x2="4.8975" y2="-30.7975" width="0" layer="20" curve="-90"/>
+</package>
+<package name="PROTON-C">
+<description>Standard Proton-C Footprint.
+
+This allows you to mount the Proton-C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
+<pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB3" x="-7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="-8.89" y1="17.244" x2="-8.89" y2="-13.97" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-13.97" x2="-7.62" y2="-15.24" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-17.78" width="0.5" layer="21" curve="-90"/>
+<wire x1="-8.89" y1="17.244" x2="-7.62" y2="18.514" width="0.5" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="18.514" x2="-5.125" y2="18.514" width="0.5" layer="21"/>
+<pad name="PB4" x="-7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB5" x="-7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCL" x="-7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SDA" x="-7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@4" x="-7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@3" x="-7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RX" x="-7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="TX" x="-7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PB9" x="7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MOSI" x="7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="MISO" x="7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="SCLK" x="7.62" y="-6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<wire x1="5.125" y1="18.514" x2="7.62" y2="18.514" width="0.5" layer="21"/>
+<wire x1="7.62" y1="18.514" x2="8.89" y2="17.244" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-17.78" x2="6.35" y2="-16.51" width="0.5" layer="21" curve="-90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-15.24" width="0.5" layer="21" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="8.89" y2="-13.97" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="17.244" width="0.5" layer="21"/>
+<pad name="PB8" x="7.62" y="-3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA0" x="7.62" y="-1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA1" x="7.62" y="1.27" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="PA2" x="7.62" y="3.81" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="VCC" x="7.62" y="6.35" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="DFU" x="7.62" y="8.89" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="GND@23" x="7.62" y="11.43" drill="0.9" diameter="1.7" rot="R90"/>
+<pad name="RAW" x="7.62" y="13.97" drill="0.9" diameter="1.7" rot="R90"/>
+<text x="0" y="-13.945" size="1.5" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-16.52" size="1.5" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<pad name="SPEAKER1" x="-7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="SPEAKER2" x="-7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PA6" x="-7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PA7" x="-7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PA8" x="-7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="PA15" x="-7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="RESET" x="7.62" y="-31.75" drill="0.9" diameter="1.7"/>
+<pad name="SWDIO" x="7.62" y="-29.21" drill="0.9" diameter="1.7"/>
+<pad name="SWCLK" x="7.62" y="-26.67" drill="0.9" diameter="1.7"/>
+<pad name="PB12" x="7.62" y="-24.13" drill="0.9" diameter="1.7"/>
+<pad name="PB11" x="7.62" y="-21.59" drill="0.9" diameter="1.7"/>
+<pad name="PB10" x="7.62" y="-19.05" drill="0.9" diameter="1.7"/>
+<pad name="D+" x="-5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="D-" x="-2.54" y="8.89" drill="0.9" diameter="1.7"/>
+<pad name="PA3-5V" x="5.08" y="8.89" drill="0.9" diameter="1.7"/>
+<hole x="-6.97" y="16.77" drill="2.2"/>
+<hole x="6.97" y="16.77" drill="2.2"/>
+<wire x1="-7.62" y1="-17.78" x2="-8.89" y2="-19.05" width="0.5" layer="21" curve="90"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-31.75" width="0.5" layer="21"/>
+<wire x1="-8.89" y1="-31.75" x2="-7.62" y2="-33.02" width="0.5" layer="21" curve="90"/>
+<wire x1="-7.62" y1="-33.02" x2="7.62" y2="-33.02" width="0.5" layer="21"/>
+<wire x1="7.62" y1="-33.02" x2="8.89" y2="-31.75" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="-31.75" x2="8.89" y2="-19.05" width="0.5" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="7.62" y2="-17.78" width="0.5" layer="21" curve="90"/>
+<wire x1="5.08" y1="10.66" x2="5.08" y2="19.25" width="0.5" layer="21"/>
+<wire x1="5.08" y1="19.25" x2="4.58" y2="19.75" width="0.5" layer="21" curve="90"/>
+<wire x1="4.58" y1="19.75" x2="-4.58" y2="19.75" width="0.5" layer="21"/>
+<wire x1="-4.58" y1="19.75" x2="-5.08" y2="19.25" width="0.5" layer="21" curve="90"/>
+<wire x1="-5.08" y1="19.25" x2="-5.08" y2="10.66" width="0.5" layer="21"/>
+<wire x1="-5.08" y1="10.66" x2="-4.58" y2="10.16" width="0.5" layer="21" curve="90"/>
+<wire x1="-4.58" y1="10.16" x2="4.58" y2="10.16" width="0.5" layer="21"/>
+<wire x1="4.58" y1="10.16" x2="5.08" y2="10.66" width="0.5" layer="21" curve="90"/>
+<wire x1="8.89" y1="17.244" x2="8.89" y2="-13.97" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-13.97" x2="7.62" y2="-15.24" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-15.24" x2="6.35" y2="-16.51" width="0.5" layer="22" curve="90"/>
+<wire x1="6.35" y1="-16.51" x2="7.62" y2="-17.78" width="0.5" layer="22" curve="90"/>
+<wire x1="8.89" y1="17.244" x2="7.62" y2="18.514" width="0.5" layer="22" curve="90"/>
+<wire x1="7.62" y1="18.514" x2="5.125" y2="18.514" width="0.5" layer="22"/>
+<wire x1="-5.125" y1="18.514" x2="-7.62" y2="18.514" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="18.514" x2="-8.89" y2="17.244" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-17.78" x2="-6.35" y2="-16.51" width="0.5" layer="22" curve="90"/>
+<wire x1="-6.35" y1="-16.51" x2="-7.62" y2="-15.24" width="0.5" layer="22" curve="90"/>
+<wire x1="-7.62" y1="-15.24" x2="-8.89" y2="-13.97" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-13.97" x2="-8.89" y2="17.244" width="0.5" layer="22"/>
+<wire x1="7.62" y1="-17.78" x2="8.89" y2="-19.05" width="0.5" layer="22" curve="-90"/>
+<wire x1="8.89" y1="-19.05" x2="8.89" y2="-31.75" width="0.5" layer="22"/>
+<wire x1="8.89" y1="-31.75" x2="7.62" y2="-33.02" width="0.5" layer="22" curve="-90"/>
+<wire x1="7.62" y1="-33.02" x2="-7.62" y2="-33.02" width="0.5" layer="22"/>
+<wire x1="-7.62" y1="-33.02" x2="-8.89" y2="-31.75" width="0.5" layer="22" curve="-90"/>
+<wire x1="-8.89" y1="-31.75" x2="-8.89" y2="-19.05" width="0.5" layer="22"/>
+<wire x1="-8.89" y1="-19.05" x2="-7.62" y2="-17.78" width="0.5" layer="22" curve="-90"/>
+<wire x1="-5.08" y1="10.66" x2="-5.08" y2="19.25" width="0.5" layer="22"/>
+<wire x1="-5.08" y1="19.25" x2="-4.58" y2="19.75" width="0.5" layer="22" curve="-90"/>
+<wire x1="-4.58" y1="19.75" x2="4.58" y2="19.75" width="0.5" layer="22"/>
+<wire x1="4.58" y1="19.75" x2="5.08" y2="19.25" width="0.5" layer="22" curve="-90"/>
+<wire x1="5.08" y1="19.25" x2="5.08" y2="10.66" width="0.5" layer="22"/>
+<wire x1="5.08" y1="10.66" x2="4.58" y2="10.16" width="0.5" layer="22" curve="-90"/>
+<wire x1="4.58" y1="10.16" x2="-4.58" y2="10.16" width="0.5" layer="22"/>
+<wire x1="-4.58" y1="10.16" x2="-5.08" y2="10.66" width="0.5" layer="22" curve="-90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PROTON-C-FULL">
+<description>Proton C, All Pins</description>
+<pin name="PB5" x="-30.48" y="-2.54" length="short"/>
+<pin name="PB6(SCL)" x="-30.48" y="0" length="short"/>
+<pin name="PB4" x="-30.48" y="-5.08" length="short"/>
+<pin name="PB7(SDA)" x="-30.48" y="2.54" length="short"/>
+<pin name="PB3" x="-30.48" y="-7.62" length="short"/>
+<pin name="GND@4" x="-30.48" y="5.08" length="short"/>
+<pin name="PB2" x="-30.48" y="-10.16" length="short"/>
+<pin name="GND@3" x="-30.48" y="7.62" length="short"/>
+<pin name="PB1" x="-30.48" y="-12.7" length="short"/>
+<pin name="PA10(RX)" x="-30.48" y="10.16" length="short"/>
+<pin name="PB0" x="-30.48" y="-15.24" length="short"/>
+<pin name="PA9(TX)" x="-30.48" y="12.7" length="short"/>
+<pin name="PA1" x="30.48" y="0" length="short" rot="R180"/>
+<pin name="PA0" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="PA2" x="30.48" y="2.54" length="short" rot="R180"/>
+<pin name="PB8" x="30.48" y="-5.08" length="short" rot="R180"/>
+<pin name="(3.3V)VCC" x="30.48" y="5.08" length="short" rot="R180"/>
+<pin name="(SCLK)PB13" x="30.48" y="-7.62" length="short" rot="R180"/>
+<pin name="DFU" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="(MISO)PB14" x="30.48" y="-10.16" length="short" rot="R180"/>
+<pin name="GND@23" x="30.48" y="10.16" length="short" rot="R180"/>
+<pin name="(MOSI)PB15" x="30.48" y="-12.7" length="short" rot="R180"/>
+<pin name="(5V_RAW)VBUS" x="30.48" y="12.7" length="short" rot="R180"/>
+<pin name="PB9" x="30.48" y="-15.24" length="short" rot="R180"/>
+<wire x1="-27.94" y1="15.24" x2="27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-16.51" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
+<text x="-27.94" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-27.94" y="-55.88" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="PA4(SPEAKER1)" x="-30.48" y="-38.1" length="short"/>
+<pin name="PA5(SPEAKER2)" x="-30.48" y="-40.64" length="short"/>
+<pin name="PA6" x="-30.48" y="-43.18" length="short"/>
+<pin name="PA7" x="-30.48" y="-45.72" length="short"/>
+<pin name="PA8" x="-30.48" y="-48.26" length="short"/>
+<pin name="PA15" x="-30.48" y="-50.8" length="short"/>
+<pin name="PB10" x="30.48" y="-38.1" length="short" rot="R180"/>
+<pin name="PB11" x="30.48" y="-40.64" length="short" rot="R180"/>
+<pin name="PB12" x="30.48" y="-43.18" length="short" rot="R180"/>
+<pin name="(SWCLK)A14" x="30.48" y="-45.72" length="short" rot="R180"/>
+<pin name="(SWDIO)A13" x="30.48" y="-48.26" length="short" rot="R180"/>
+<pin name="RESET" x="30.48" y="-50.8" length="short" rot="R180"/>
+<wire x1="-27.94" y1="-16.51" x2="-25.4" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-16.51" x2="-25.4" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-36.83" x2="-27.94" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-36.83" x2="-27.94" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-53.34" x2="27.94" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-53.34" x2="27.94" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-36.83" x2="25.4" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-36.83" x2="25.4" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-16.51" x2="27.94" y2="-16.51" width="0.254" layer="94"/>
+<pin name="D+" x="-7.62" y="17.78" length="short" rot="R270"/>
+<pin name="D-" x="-5.08" y="17.78" length="short" rot="R270"/>
+<pin name="(5V)PA3" x="7.62" y="17.78" length="short" rot="R270"/>
+<pin name="BOOT0" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="(3.3V)PA3" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="PC15" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC14" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="LED" x="-30.48" y="-25.4" length="middle"/>
+<rectangle x1="-10.16" y1="-17.78" x2="-7.62" y2="-15.24" layer="94"/>
+<rectangle x1="-5.08" y1="-17.78" x2="-2.54" y2="-15.24" layer="94"/>
+<rectangle x1="0" y1="-17.78" x2="2.54" y2="-15.24" layer="94"/>
+<rectangle x1="7.62" y1="-17.78" x2="10.16" y2="-15.24" layer="94"/>
+<wire x1="8.89" y1="-20.32" x2="8.89" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-22.86" x2="1.27" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-25.4" x2="-3.81" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-27.94" x2="-8.89" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-22.86" x2="11.684" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-25.4" x2="17.018" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-27.94" x2="17.018" y2="-27.94" width="0.254" layer="94"/>
+<rectangle x1="-13.97" y1="-26.67" x2="-11.43" y2="-24.13" layer="94"/>
+<wire x1="-13.97" y1="-25.4" x2="-18.796" y2="-25.4" width="0.254" layer="94"/>
+<rectangle x1="-12.7" y1="-33.02" x2="-10.16" y2="-30.48" layer="94"/>
+<rectangle x1="5.08" y1="-33.02" x2="7.62" y2="-30.48" layer="94"/>
+<rectangle x1="10.16" y1="-33.02" x2="12.7" y2="-30.48" layer="94"/>
+<circle x="-5.08" y="0" radius="0.508" width="1.016" layer="94"/>
+<circle x="-7.62" y="0" radius="0.508" width="1.016" layer="94"/>
+<circle x="7.62" y="0" radius="0.508" width="1.016" layer="94"/>
+<wire x1="-5.08" y1="1.524" x2="-5.08" y2="9.398" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.524" x2="-7.62" y2="9.398" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="1.524" width="0.254" layer="94"/>
+<rectangle x1="-2.54" y1="-35.56" x2="2.54" y2="-33.02" layer="94"/>
+<rectangle x1="-2.54" y1="-50.8" x2="2.54" y2="-48.26" layer="94"/>
+<wire x1="-10.16" y1="-31.75" x2="3.81" y2="-31.75" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-31.75" x2="3.81" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-50.8" x2="17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-33.02" x2="6.35" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-48.26" x2="12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-33.02" x2="11.43" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-45.72" x2="12.7" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-40.64" x2="-1.27" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-40.64" x2="-1.27" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-38.1" x2="-2.54" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="0" y1="-38.1" x2="1.27" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-38.1" x2="1.27" y2="-48.26" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PROTON-C-SIMPLE">
+<description>Proton C, THT Pins</description>
+<pin name="PB5" x="-30.48" y="-2.54" length="short"/>
+<pin name="PB6(SCL)" x="-30.48" y="0" length="short"/>
+<pin name="PB4" x="-30.48" y="-5.08" length="short"/>
+<pin name="PB7(SDA)" x="-30.48" y="2.54" length="short"/>
+<pin name="PB3" x="-30.48" y="-7.62" length="short"/>
+<pin name="GND@4" x="-30.48" y="5.08" length="short"/>
+<pin name="PB2" x="-30.48" y="-10.16" length="short"/>
+<pin name="GND@3" x="-30.48" y="7.62" length="short"/>
+<pin name="PB1" x="-30.48" y="-12.7" length="short"/>
+<pin name="PA10(RX)" x="-30.48" y="10.16" length="short"/>
+<pin name="PB0" x="-30.48" y="-15.24" length="short"/>
+<pin name="PA9(TX)" x="-30.48" y="12.7" length="short"/>
+<pin name="PA1" x="30.48" y="0" length="short" rot="R180"/>
+<pin name="PA0" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="PA2" x="30.48" y="2.54" length="short" rot="R180"/>
+<pin name="PB8" x="30.48" y="-5.08" length="short" rot="R180"/>
+<pin name="(3.3V)VCC" x="30.48" y="5.08" length="short" rot="R180"/>
+<pin name="(SCLK)PB13" x="30.48" y="-7.62" length="short" rot="R180"/>
+<pin name="DFU" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="(MISO)PB14" x="30.48" y="-10.16" length="short" rot="R180"/>
+<pin name="GND@23" x="30.48" y="10.16" length="short" rot="R180"/>
+<pin name="(MOSI)PB15" x="30.48" y="-12.7" length="short" rot="R180"/>
+<pin name="(5V_RAW)VBUS" x="30.48" y="12.7" length="short" rot="R180"/>
+<pin name="PB9" x="30.48" y="-15.24" length="short" rot="R180"/>
+<wire x1="-27.94" y1="15.24" x2="27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-16.51" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
+<text x="-27.94" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-27.94" y="-40.64" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="PA4(SPEAKER1)" x="-30.48" y="-22.86" length="short"/>
+<pin name="PA5(SPEAKER2)" x="-30.48" y="-25.4" length="short"/>
+<pin name="PA6" x="-30.48" y="-27.94" length="short"/>
+<pin name="PA7" x="-30.48" y="-30.48" length="short"/>
+<pin name="PA8" x="-30.48" y="-33.02" length="short"/>
+<pin name="PA15" x="-30.48" y="-35.56" length="short"/>
+<pin name="PB10" x="30.48" y="-22.86" length="short" rot="R180"/>
+<pin name="PB11" x="30.48" y="-25.4" length="short" rot="R180"/>
+<pin name="PB12" x="30.48" y="-27.94" length="short" rot="R180"/>
+<pin name="(SWCLK)A14" x="30.48" y="-30.48" length="short" rot="R180"/>
+<pin name="(SWDIO)A13" x="30.48" y="-33.02" length="short" rot="R180"/>
+<pin name="RESET" x="30.48" y="-35.56" length="short" rot="R180"/>
+<wire x1="-27.94" y1="-16.51" x2="-25.4" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-16.51" x2="-25.4" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-21.59" x2="-27.94" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-21.59" x2="-27.94" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-38.1" x2="27.94" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-38.1" x2="27.94" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-21.59" x2="25.4" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-21.59" x2="25.4" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-16.51" x2="27.94" y2="-16.51" width="0.254" layer="94"/>
+<pin name="D+" x="-7.62" y="17.78" length="short" rot="R270"/>
+<pin name="D-" x="-5.08" y="17.78" length="short" rot="R270"/>
+<pin name="(5V)PA3" x="7.62" y="17.78" length="short" rot="R270"/>
+<circle x="-5.08" y="0" radius="0.508" width="1.016" layer="94"/>
+<circle x="-7.62" y="0" radius="0.508" width="1.016" layer="94"/>
+<circle x="7.62" y="0" radius="0.508" width="1.016" layer="94"/>
+<wire x1="-5.08" y1="1.524" x2="-5.08" y2="9.398" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.524" x2="-7.62" y2="9.398" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="1.524" width="0.254" layer="94"/>
+<rectangle x1="-2.54" y1="-20.32" x2="2.54" y2="-17.78" layer="94"/>
+<rectangle x1="-2.54" y1="-35.56" x2="2.54" y2="-33.02" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="-1.27" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-25.4" x2="-1.27" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-22.86" x2="-2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="1.27" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-22.86" x2="1.27" y2="-33.02" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PROTON-C-SIMPLE">
+<gates>
+<gate name="G$1" symbol="PROTON-C-SIMPLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PROTON-C">
+<connects>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-BOTTOM" package="PROTON-C-BOTTOM">
+<connects>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SPEAKER" package="PROTON-C-SPEAKER">
+<connects>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PROTON-C-FULL" prefix="U">
+<gates>
+<gate name="G$1" symbol="PROTON-C-FULL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD" package="PROTON-C-SMD">
+<connects>
+<connect gate="G$1" pin="(3.3V)PA3" pad="PA3-3V"/>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK@1 SWCLK@2"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO@1 SWDIO@2"/>
+<connect gate="G$1" pin="BOOT0" pad="BOOT0"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC14" pad="PC14"/>
+<connect gate="G$1" pin="PC15" pad="PC15"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD-SPEAKER" package="PROTON-C-SMD-SPEAKER">
+<connects>
+<connect gate="G$1" pin="(3.3V)PA3" pad="PA3-3V"/>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK@1 SWCLK@2"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO@1 SWDIO@2"/>
+<connect gate="G$1" pin="BOOT0" pad="BOOT0"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC14" pad="PC14"/>
+<connect gate="G$1" pin="PC15" pad="PC15"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT" package="PROTON-C-THT">
+<connects>
+<connect gate="G$1" pin="(3.3V)PA3" pad="PA3-3V"/>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK@1 SWCLK@2"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO@1 SWDIO@2"/>
+<connect gate="G$1" pin="BOOT0" pad="BOOT0"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC14" pad="PC14"/>
+<connect gate="G$1" pin="PC15" pad="PC15"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT-SPEAKER" package="PROTON-C-THT-SPEAKER">
+<connects>
+<connect gate="G$1" pin="(3.3V)PA3" pad="PA3-3V"/>
+<connect gate="G$1" pin="(3.3V)VCC" pad="VCC"/>
+<connect gate="G$1" pin="(5V)PA3" pad="PA3-5V"/>
+<connect gate="G$1" pin="(5V_RAW)VBUS" pad="RAW"/>
+<connect gate="G$1" pin="(MISO)PB14" pad="MISO"/>
+<connect gate="G$1" pin="(MOSI)PB15" pad="MOSI"/>
+<connect gate="G$1" pin="(SCLK)PB13" pad="SCLK"/>
+<connect gate="G$1" pin="(SWCLK)A14" pad="SWCLK@1 SWCLK@2"/>
+<connect gate="G$1" pin="(SWDIO)A13" pad="SWDIO@1 SWDIO@2"/>
+<connect gate="G$1" pin="BOOT0" pad="BOOT0"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10(RX)" pad="RX"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA4(SPEAKER1)" pad="SPEAKER1"/>
+<connect gate="G$1" pin="PA5(SPEAKER2)" pad="SPEAKER2"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9(TX)" pad="TX"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB11" pad="PB11"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6(SCL)" pad="SCL"/>
+<connect gate="G$1" pin="PB7(SDA)" pad="SDA"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC14" pad="PC14"/>
+<connect gate="G$1" pin="PC15" pad="PC15"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
