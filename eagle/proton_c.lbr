@@ -163,9 +163,9 @@
 <description>Footprints used for the controller and other supporting hardware</description>
 <packages>
 <package name="PROTON-C-BOTTOM">
-<description>Footprint for Proton-C when mounted top-up to the bottom of the board.
+<description>Footprint for Proton C when mounted top-up to the bottom of the board.
 
-This has holes cut out to accomodate the USB connector and to allow you to press the RESET button using a small tool. This will allow you to place the top side of the Proton-C towards the board and still have a low profile.</description>
+This has holes cut out to accomodate the USB connector and to allow you to press the RESET button using a small tool. This will allow you to place the top side of the Proton C towards the board and still have a low profile.</description>
 <pad name="PB0" x="-7.62" y="-12.7" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-10.16" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-7.62" drill="0.9" diameter="1.7" rot="R90"/>
@@ -259,9 +259,9 @@ This has holes cut out to accomodate the USB connector and to allow you to press
 <text x="0" y="-16.5" size="1.5" layer="28" font="vector" ratio="13" rot="MR0" align="center">&gt;VALUE</text>
 </package>
 <package name="PROTON-C-SPEAKER">
-<description>Standard Proton-C Footprint.
+<description>Standard Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
+This allows you to mount the Proton C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
@@ -369,9 +369,9 @@ This allows you to mount the Proton-C on the top of a board. It has a cutout to 
 <wire x1="-4.58" y1="10.16" x2="-5.08" y2="10.66" width="0.5" layer="22" curve="-90"/>
 </package>
 <package name="PROTON-C-SMD">
-<description>Proton-C Footprint.
+<description>Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. There are SMD pads corresponding to internal SMD pins.</description>
+This allows you to mount the Proton C on the top of a board. There are SMD pads corresponding to internal SMD pins.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
@@ -450,9 +450,9 @@ This allows you to mount the Proton-C on the top of a board. There are SMD pads 
 <smd name="SWCLK@2" x="5.619" y="-13.803" dx="1" dy="1" layer="1"/>
 </package>
 <package name="PROTON-C-THT">
-<description>Proton-C Footprint.
+<description>Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins.</description>
+This allows you to mount the Proton C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
@@ -531,9 +531,9 @@ This allows you to mount the Proton-C on the top of a board. There are 0.5mm dri
 <pad name="LED" x="-3.27" y="-5.936" drill="0.5" shape="octagon"/>
 </package>
 <package name="PROTON-C-THT-SPEAKER">
-<description>Proton-C Footprint.
+<description>Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
+This allows you to mount the Proton C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
@@ -620,9 +620,9 @@ This allows you to mount the Proton-C on the top of a board. There are 0.5mm dri
 <wire x1="5.3975" y1="-30.2975" x2="4.8975" y2="-30.7975" width="0" layer="20" curve="-90"/>
 </package>
 <package name="PROTON-C-SMD-SPEAKER">
-<description>Proton-C Footprint.
+<description>Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. There are SMD pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
+This allows you to mount the Proton C on the top of a board. There are SMD pads corresponding to internal SMD pins. There is a cutout for the speaker.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
@@ -709,9 +709,9 @@ This allows you to mount the Proton-C on the top of a board. There are SMD pads 
 <wire x1="5.3975" y1="-30.2975" x2="4.8975" y2="-30.7975" width="0" layer="20" curve="-90"/>
 </package>
 <package name="PROTON-C">
-<description>Standard Proton-C Footprint.
+<description>Standard Proton C Footprint.
 
-This allows you to mount the Proton-C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
+This allows you to mount the Proton C on the top of a board. It has a cutout to allow the speaker to be heard.</description>
 <pad name="PB0" x="-7.62" y="-13.97" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB1" x="-7.62" y="-11.43" drill="0.9" diameter="1.7" rot="R90"/>
 <pad name="PB2" x="-7.62" y="-8.89" drill="0.9" diameter="1.7" rot="R90"/>
