@@ -8,3 +8,4 @@ The official documentation is powered by Docsify and hosted on [GitHub](https://
 
 ## Configurator
 Use our [online configurator](https://config.qmk.fm/) to design and build your keymap firmware from the comfort of your browser. Only Chrome and Firefox are supported at this time.
+
