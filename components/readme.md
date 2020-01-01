@@ -2,6 +2,12 @@
 
 ---
 
+## Proton C
+
+![Proton C on Footprint](proton_c_cad.jpg)
+
+You'll need to download the components and associate them with the kicad_mod file manually - if there's a better workflow for this, please let us know!
+
 ## Kailh PCB Socket
 
 ![Kailh PCB Socket bottom (Cherry-style)](https://i.imgur.com/Pd1VoPb.png)

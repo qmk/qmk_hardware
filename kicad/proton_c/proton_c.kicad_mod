@@ -1,4 +1,4 @@
-(module ishtob-footprints:Proton-C (layer F.Cu) (tedit 5C0A0910)
+(module QMK:proton_c (layer F.Cu) (tedit 5E0CDFAC)
   (fp_text reference REF** (at 0.01 3.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -157,4 +157,29 @@
   (pad SCRE thru_hole circle (at 7.005 -18.0748) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad A10 thru_hole circle (at -7.6 -12.71) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 5V thru_hole circle (at 7.615 -15.25) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (model BG030-06-A-0400-0300-N-G.stp
+    (offset (xyz 7.62 -16.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model BG030-06-A-0400-0300-N-G.stp
+    (offset (xyz -7.62 -16.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model BG030-12-A-0400-0300-N-G.stp
+    (offset (xyz 7.62 16.5 -0.06))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model BG030-12-A-0400-0300-N-G.stp
+    (offset (xyz -7.62 16.5 -0.06))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model proton-c.step
+    (offset (xyz 0 -6 4.08))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
