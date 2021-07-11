@@ -4,7 +4,7 @@
 # tools/png2kicad_mod.py: 21
 # tools/png2kicad_pcb.py: 21
 # tools/png2lbr.py: 21
-Pillow == 4.3.0
+Pillow == 8.2.0
 
 # tools/png2kicad_mod.py: 24
 # tools/png2kicad_pcb.py: 24
