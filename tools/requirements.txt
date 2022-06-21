@@ -14,7 +14,7 @@ Shapely == 1.6.2.post1
 # tools/png2kicad_mod.py: 22
 # tools/png2kicad_pcb.py: 22
 # tools/png2lbr.py: 22
-numpy == 1.13.3
+numpy == 1.22.0
 
 # tools/png2kicad_mod.py: 23
 # tools/png2kicad_pcb.py: 23
